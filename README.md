@@ -11,3 +11,4 @@
 ![coil_summary](https://user-images.githubusercontent.com/86164867/135538934-46cb5e3b-84df-46db-95af-ec47c05ae21c.PNG)
 ![lot_summary](https://user-images.githubusercontent.com/86164867/135538946-2b9d1091-82cf-472f-affa-82580397627e.PNG)
 
+Lots 1 and 2 meet the design specifications of a variance that does not exceed 100 psi, with respective variances of 0.98 and 7.47 psi. Lot 3 far exceeds the design specification with a variance of 170.29 psi.  Assuming that the lots are the same size, the total variance of all lots is 89.37 psi, which does not exceed the design specifications.

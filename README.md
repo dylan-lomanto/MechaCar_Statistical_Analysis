@@ -21,3 +21,11 @@ The full population t-test has a p-value of 0.06, which is higher than the 0.05 
 ![lot1_ttest](https://user-images.githubusercontent.com/86164867/135674645-1ee3cb9d-e732-4474-9b74-429e35bc2d55.PNG)
 ![lot2_ttest](https://user-images.githubusercontent.com/86164867/135674649-a2b66029-a0a0-4a10-b6ed-6fd383bddc80.PNG)
 ![lot3_ttest](https://user-images.githubusercontent.com/86164867/135674651-304d5b99-5e94-423f-8725-fc4bf6aab95b.PNG)
+
+Lot 1 has a p-value of 1 and a sample mean of 1500.  The t-test results suppport the results of the full popoulation sample t-test that the null hypothesis cannot be rejected.
+
+Lot 2 has a p-value of 0.61 and a sample mean of 1500.2. The t-test results suppport the results of the full popoulation sample t-test that the null hypothesis cannot be rejected.
+
+Lot 3 has a p-value of 0.04 and a sample mean of 1496.14. Because the p-value is below the significance level of 0.05 there is evidence to support rejecting the null hypothesis.
+
+

@@ -12,3 +12,6 @@
 ![lot_summary](https://user-images.githubusercontent.com/86164867/135538946-2b9d1091-82cf-472f-affa-82580397627e.PNG)
 
 Lots 1 and 2 meet the design specifications of a variance that does not exceed 100 psi, with respective variances of 0.98 and 7.47 psi. Lot 3 far exceeds the design specification with a variance of 170.29 psi.  Assuming that the lots are the same size, the total variance of all lots is 89.37 psi, which does not exceed the design specifications.
+
+## T-Tests on Suspension Coils
+![full_population_ttest](https://user-images.githubusercontent.com/86164867/135669131-4bd1a9b8-5a77-4519-b94c-dc617accf916.PNG)

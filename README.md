@@ -15,6 +15,7 @@ Lots 1 and 2 meet the design specifications of a variance that does not exceed 1
 
 ## T-Tests on Suspension Coils
 ![full_population_ttest](https://user-images.githubusercontent.com/86164867/135669131-4bd1a9b8-5a77-4519-b94c-dc617accf916.PNG)
+
 The full population t-test has a p-value of 0.06, which is higher than the 0.05 significance level applied to this test. Because the p-value is greater than the significance level there is not sufficient evidence to reject the null hypothesis that true mean of the population is equal to 1500.  The mean of the sample and the mean of the full population are statistically similar.
 
 ![lot1_ttest](https://user-images.githubusercontent.com/86164867/135674645-1ee3cb9d-e732-4474-9b74-429e35bc2d55.PNG)

@@ -30,7 +30,11 @@ Lot 3 has a p-value of 0.04 and a sample mean of 1496.14. Because the p-value is
 
 ## Study Design: MechaCar vs Competition
 Metrics: Lifetime Maintenance Cost (dependent variable) and Purchase Price (dependant variable)
+
 Null Hypothesis: MechaCar has similar lifetime maintenance costs vs purchase price than the competition.
+
 Alternative Hypothesis: MechaCar does not have similar lifetime maintenance costs vs purchase price than the competition.
+
 Statistical Test: A one-way ANOVA test is the best way to test the means of a single dependent variable across a single dependent variable with multiple groups. In the case the groups are the MechaCar population and the competitor populations. 
+
 Data Needed: Purchase price of all MechaCar models, purchase price of comparable competition models, total lifetime maintenance costs for all populations.

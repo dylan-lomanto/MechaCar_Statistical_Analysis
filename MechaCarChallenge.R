@@ -1,5 +1,5 @@
 #Deliverable 1
-#3. load dplyr and tiryverse
+#3. load dplyr and tidyverse
 library(dplyr)
 library(tidyverse)
 
@@ -22,4 +22,15 @@ coil_summary <- mecha_coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Var=v
 #4. Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil's PSI column.
 lot_summary <- mecha_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Var=var(PSI),Std_Dev=sd(PSI))
                               
-                                           
+#Deliverable 3
+#1. Use t.test() to determine if PSI across all lots is statistically different from the population mean of 1500 psi
+t.test(mecha_coil$PSI,mu=1500)
+
+#2. Individual lot t-tests using subset()
+lot1 <- subset(mecha_coil, Manufacturing_Lot=="Lot1")
+lot2 <- subset(mecha_coil, Manufacturing_Lot=="Lot2")
+lot3 <- subset(mecha_coil, Manufacturing_Lot=="Lot3")
+
+t.test(lot1$PSI,mu=1500)
+t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
